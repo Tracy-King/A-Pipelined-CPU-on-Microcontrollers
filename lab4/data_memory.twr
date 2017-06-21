@@ -1,0 +1,162 @@
+--------------------------------------------------------------------------------
+Release 13.4 Trace  (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\13.4\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 4 -n
+3 -fastpaths -xml data_memory.twx data_memory.ncd -o data_memory.twr
+data_memory.pcf
+
+Design file:              data_memory.ncd
+Physical constraint file: data_memory.pcf
+Device,package,speed:     xc3s500e,fg320,-4 (PRODUCTION 1.27 2012-01-07)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clock_in
+-------------+------------+------------+------------------+--------+
+             |Max Setup to|Max Hold to |                  | Clock  |
+Source       | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+-------------+------------+------------+------------------+--------+
+address<0>   |    8.918(F)|    1.250(F)|clock_in_BUFGP    |   0.000|
+address<1>   |    7.306(F)|    1.372(F)|clock_in_BUFGP    |   0.000|
+address<2>   |    5.536(F)|    1.520(F)|clock_in_BUFGP    |   0.000|
+address<3>   |    7.103(F)|    1.561(F)|clock_in_BUFGP    |   0.000|
+address<4>   |    5.569(F)|    1.436(F)|clock_in_BUFGP    |   0.000|
+address<5>   |    6.774(F)|   -0.398(F)|clock_in_BUFGP    |   0.000|
+address<6>   |    6.737(F)|   -0.260(F)|clock_in_BUFGP    |   0.000|
+memWrite     |    6.781(F)|   -0.403(F)|clock_in_BUFGP    |   0.000|
+writeData<0> |    0.666(F)|    1.244(F)|clock_in_BUFGP    |   0.000|
+writeData<1> |    1.364(F)|    0.697(F)|clock_in_BUFGP    |   0.000|
+writeData<2> |    1.776(F)|    0.342(F)|clock_in_BUFGP    |   0.000|
+writeData<3> |    0.113(F)|    1.680(F)|clock_in_BUFGP    |   0.000|
+writeData<4> |    1.832(F)|    0.431(F)|clock_in_BUFGP    |   0.000|
+writeData<5> |    0.449(F)|    1.454(F)|clock_in_BUFGP    |   0.000|
+writeData<6> |    0.116(F)|    1.671(F)|clock_in_BUFGP    |   0.000|
+writeData<7> |    1.824(F)|    0.560(F)|clock_in_BUFGP    |   0.000|
+writeData<8> |    1.988(F)|    0.444(F)|clock_in_BUFGP    |   0.000|
+writeData<9> |    1.116(F)|    1.047(F)|clock_in_BUFGP    |   0.000|
+writeData<10>|    0.834(F)|    1.468(F)|clock_in_BUFGP    |   0.000|
+writeData<11>|    0.401(F)|    1.467(F)|clock_in_BUFGP    |   0.000|
+writeData<12>|    0.448(F)|    1.254(F)|clock_in_BUFGP    |   0.000|
+writeData<13>|    1.391(F)|    1.517(F)|clock_in_BUFGP    |   0.000|
+writeData<14>|    0.409(F)|    1.497(F)|clock_in_BUFGP    |   0.000|
+writeData<15>|    1.019(F)|    0.752(F)|clock_in_BUFGP    |   0.000|
+writeData<16>|    0.739(F)|    1.214(F)|clock_in_BUFGP    |   0.000|
+writeData<17>|    0.222(F)|    1.418(F)|clock_in_BUFGP    |   0.000|
+writeData<18>|    0.478(F)|    1.670(F)|clock_in_BUFGP    |   0.000|
+writeData<19>|    0.924(F)|    1.465(F)|clock_in_BUFGP    |   0.000|
+writeData<20>|    1.313(F)|    0.703(F)|clock_in_BUFGP    |   0.000|
+writeData<21>|    0.618(F)|    1.757(F)|clock_in_BUFGP    |   0.000|
+writeData<22>|    2.532(F)|   -0.047(F)|clock_in_BUFGP    |   0.000|
+writeData<23>|    1.198(F)|    0.849(F)|clock_in_BUFGP    |   0.000|
+writeData<24>|    0.103(F)|    1.712(F)|clock_in_BUFGP    |   0.000|
+writeData<25>|    0.526(F)|    1.703(F)|clock_in_BUFGP    |   0.000|
+writeData<26>|    0.801(F)|    1.147(F)|clock_in_BUFGP    |   0.000|
+writeData<27>|    0.433(F)|    1.483(F)|clock_in_BUFGP    |   0.000|
+writeData<28>|    0.883(F)|    1.071(F)|clock_in_BUFGP    |   0.000|
+writeData<29>|    1.475(F)|    1.016(F)|clock_in_BUFGP    |   0.000|
+writeData<30>|    0.311(F)|    1.519(F)|clock_in_BUFGP    |   0.000|
+writeData<31>|    1.743(F)|    0.156(F)|clock_in_BUFGP    |   0.000|
+-------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock memRead
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+address<0>  |   14.463(F)|   -1.244(F)|memRead_BUFGP     |   0.000|
+address<1>  |   12.851(F)|   -0.950(F)|memRead_BUFGP     |   0.000|
+address<2>  |   10.815(F)|   -0.731(F)|memRead_BUFGP     |   0.000|
+address<3>  |   12.648(F)|   -0.891(F)|memRead_BUFGP     |   0.000|
+address<4>  |    9.990(F)|   -0.730(F)|memRead_BUFGP     |   0.000|
+address<5>  |    8.894(F)|    0.001(F)|memRead_BUFGP     |   0.000|
+address<6>  |    6.381(F)|    0.225(F)|memRead_BUFGP     |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock memRead to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+readData<0> |    6.186(F)|memRead_BUFGP     |   0.000|
+readData<1> |    6.170(F)|memRead_BUFGP     |   0.000|
+readData<2> |    6.174(F)|memRead_BUFGP     |   0.000|
+readData<3> |    6.174(F)|memRead_BUFGP     |   0.000|
+readData<4> |    6.168(F)|memRead_BUFGP     |   0.000|
+readData<5> |    6.147(F)|memRead_BUFGP     |   0.000|
+readData<6> |    6.170(F)|memRead_BUFGP     |   0.000|
+readData<7> |    6.177(F)|memRead_BUFGP     |   0.000|
+readData<8> |    6.147(F)|memRead_BUFGP     |   0.000|
+readData<9> |    6.164(F)|memRead_BUFGP     |   0.000|
+readData<10>|    6.176(F)|memRead_BUFGP     |   0.000|
+readData<11>|    6.157(F)|memRead_BUFGP     |   0.000|
+readData<12>|    6.178(F)|memRead_BUFGP     |   0.000|
+readData<13>|    6.160(F)|memRead_BUFGP     |   0.000|
+readData<14>|    6.170(F)|memRead_BUFGP     |   0.000|
+readData<15>|    6.177(F)|memRead_BUFGP     |   0.000|
+readData<16>|    6.151(F)|memRead_BUFGP     |   0.000|
+readData<17>|    6.190(F)|memRead_BUFGP     |   0.000|
+readData<18>|    6.146(F)|memRead_BUFGP     |   0.000|
+readData<19>|    6.170(F)|memRead_BUFGP     |   0.000|
+readData<20>|    6.147(F)|memRead_BUFGP     |   0.000|
+readData<21>|    6.146(F)|memRead_BUFGP     |   0.000|
+readData<22>|    6.168(F)|memRead_BUFGP     |   0.000|
+readData<23>|    6.157(F)|memRead_BUFGP     |   0.000|
+readData<24>|    6.190(F)|memRead_BUFGP     |   0.000|
+readData<25>|    6.160(F)|memRead_BUFGP     |   0.000|
+readData<26>|    6.168(F)|memRead_BUFGP     |   0.000|
+readData<27>|    6.195(F)|memRead_BUFGP     |   0.000|
+readData<28>|    6.190(F)|memRead_BUFGP     |   0.000|
+readData<29>|    6.174(F)|memRead_BUFGP     |   0.000|
+readData<30>|    6.195(F)|memRead_BUFGP     |   0.000|
+readData<31>|    6.165(F)|memRead_BUFGP     |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock memRead
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock_in       |         |         |         |    7.425|
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Thu Mar 03 10:18:50 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 123 MB
+
+
+

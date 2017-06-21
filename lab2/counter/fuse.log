@@ -1,0 +1,22 @@
+Running: C:\Xilinx\13.4\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o E:/codjstu_design/lab2/counter/countert_isim_beh.exe -prj E:/codjstu_design/lab2/counter/countert_beh.prj work.countert work.glbl 
+ISim O.87xd (signature 0x2f00eba5)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/codjstu_design/lab2/counter/counter.v" into library work
+WARNING:HDLCompiler:370 - "E:/codjstu_design/lab2/counter/counter.v" Line 25: Empty port in module declaration
+Analyzing Verilog file "E:/codjstu_design/lab2/counter/countert.v" into library work
+Analyzing Verilog file "C:/Xilinx/13.4/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 105240 KB
+Fuse CPU Usage: 186 ms
+Compiling module counter
+Compiling module countert
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 3 Verilog Units
+Built simulation executable E:/codjstu_design/lab2/counter/countert_isim_beh.exe
+Fuse Memory Usage: 109832 KB
+Fuse CPU Usage: 218 ms

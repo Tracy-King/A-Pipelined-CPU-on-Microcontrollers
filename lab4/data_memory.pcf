@@ -1,0 +1,9 @@
+//! **************************************************************************
+// Written by: Map O.87xd on Thu Mar 03 10:18:35 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+NET "memRead_BUFGP/IBUFG" BEL "memRead_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+NET "clock_in_BUFGP/IBUFG" BEL "clock_in_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/codjstu_design/lab5/Top_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="Top_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="25" />
+   <wvobject fp_name="/Top_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/RESET" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/INST" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">INST[31:0]</obj_property>
+      <obj_property name="ObjectShortName">INST[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/REG_DST" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">REG_DST</obj_property>
+      <obj_property name="ObjectShortName">REG_DST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/JUMP" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">JUMP</obj_property>
+      <obj_property name="ObjectShortName">JUMP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/BRANCH" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">BRANCH</obj_property>
+      <obj_property name="ObjectShortName">BRANCH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/MEM_READ" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MEM_READ</obj_property>
+      <obj_property name="ObjectShortName">MEM_READ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/MEM_TO_REG" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MEM_TO_REG</obj_property>
+      <obj_property name="ObjectShortName">MEM_TO_REG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/ALU_OP" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALU_OP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_OP[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/ALU_SRC" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ALU_SRC</obj_property>
+      <obj_property name="ObjectShortName">ALU_SRC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/REG_WRITE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">REG_WRITE</obj_property>
+      <obj_property name="ObjectShortName">REG_WRITE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/mainregister/regFile" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regFile[31:0,31:0]</obj_property>
+      <obj_property name="ObjectShortName">regFile[31:0,31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[31]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[31,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[31,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[30]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[30,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[30,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[29]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[29,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[29,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[28]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[28,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[28,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[27]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[27,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[27,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[26]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[26,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[26,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[25]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[25,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[25,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[24]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[24,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[24,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[23]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[23,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[23,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[22]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[22,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[22,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[21]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[21,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[21,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[20]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[20,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[20,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[19]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[19,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[19,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[18]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[18,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[18,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[17]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[17,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[17,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[16]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[16,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[16,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[15]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[15,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[15,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[14]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[14,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[14,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[13]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[13,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[13,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[12]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[12,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[12,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[11]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[11,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[11,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[10]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[10,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[10,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[9]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[9,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[9,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[8,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[7,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[6,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[5,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[4,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[3,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[2,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[1,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/mainregister/regFile[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[0,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/mainalu/aluRes" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">aluRes[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluRes[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">memFile[127:0,31:0]</obj_property>
+      <obj_property name="ObjectShortName">memFile[127:0,31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[127]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[127,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[127,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[126]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[126,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[126,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[125]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[125,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[125,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[124]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[124,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[124,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[123]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[123,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[123,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[122]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[122,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[122,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[121]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[121,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[121,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[120]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[120,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[120,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[119]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[119,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[119,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[118]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[118,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[118,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[117]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[117,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[117,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[116]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[116,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[116,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[115]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[115,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[115,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[114]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[114,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[114,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[113]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[113,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[113,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[112]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[112,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[112,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[111]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[111,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[111,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[110]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[110,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[110,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[109]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[109,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[109,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[108]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[108,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[108,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[107]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[107,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[107,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[106]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[106,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[106,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[105]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[105,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[105,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[104]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[104,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[104,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[103]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[103,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[103,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[102]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[102,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[102,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[101]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[101,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[101,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[100]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[100,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[100,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[99]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[99,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[99,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[98]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[98,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[98,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[97]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[97,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[97,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[96]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[96,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[96,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[95]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[95,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[95,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[94]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[94,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[94,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[93]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[93,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[93,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[92]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[92,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[92,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[91]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[91,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[91,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[90]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[90,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[90,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[89]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[89,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[89,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[88]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[88,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[88,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[87]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[87,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[87,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[86]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[86,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[86,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[85]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[85,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[85,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[84]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[84,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[84,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[83]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[83,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[83,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[82]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[82,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[82,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[81]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[81,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[81,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[80]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[80,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[80,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[79]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[79,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[79,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[78]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[78,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[78,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[77]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[77,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[77,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[76]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[76,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[76,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[75]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[75,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[75,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[74]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[74,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[74,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[73]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[73,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[73,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[72]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[72,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[72,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[71]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[71,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[71,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[70]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[70,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[70,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[69]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[69,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[69,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[68]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[68,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[68,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[67]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[67,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[67,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[66]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[66,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[66,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[65]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[65,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[65,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[64]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[64,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[64,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[63]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[63,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[63,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[62]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[62,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[62,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[61]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[61,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[61,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[60]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[60,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[60,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[59]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[59,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[59,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[58]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[58,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[58,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[57]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[57,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[57,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[56]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[56,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[56,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[55]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[55,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[55,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[54]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[54,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[54,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[53]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[53,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[53,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[52]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[52,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[52,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[51]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[51,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[51,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[50]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[50,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[50,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[49]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[49,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[49,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[48]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[48,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[48,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[47]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[47,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[47,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[46]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[46,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[46,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[45]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[45,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[45,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[44]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[44,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[44,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[43]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[43,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[43,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[42]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[42,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[42,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[41]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[41,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[41,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[40]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[40,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[40,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[39]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[39,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[39,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[38]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[38,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[38,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[37]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[37,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[37,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[36]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[36,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[36,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[35]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[35,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[35,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[34]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[34,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[34,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[33]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[33,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[33,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[32]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[32,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[32,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[31]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[31,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[31,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[30]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[30,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[30,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[29]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[29,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[29,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[28]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[28,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[28,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[27]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[27,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[27,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[26]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[26,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[26,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[25]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[25,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[25,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[24]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[24,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[24,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[23]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[23,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[23,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[22]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[22,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[22,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[21]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[21,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[21,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[20]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[20,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[20,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[19]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[19,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[19,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[18]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[18,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[18,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[17]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[17,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[17,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[16]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[16,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[16,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[15]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[15,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[15,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[14]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[14,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[14,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[13]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[13,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[13,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[12]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[12,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[12,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[11]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[11,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[11,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[10]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[10,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[10,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[9]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[9,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[9,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[8,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[7,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[6,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[5,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[4,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[3,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[2,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[1,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_tb/uut/maindata_memory/memFile[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[0,31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/mainregister/readReg1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">readReg1[25:21]</obj_property>
+      <obj_property name="ObjectShortName">readReg1[25:21]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/mainregister/readReg2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">readReg2[20:16]</obj_property>
+      <obj_property name="ObjectShortName">readReg2[20:16]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/mainregister/readData1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">readData1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readData1[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/mainregister/readData2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">readData2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readData2[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/mainsignext/inst" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">inst[15:0]</obj_property>
+      <obj_property name="ObjectShortName">inst[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/mainsignext/data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/mainctr/memWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">memWrite</obj_property>
+      <obj_property name="ObjectShortName">memWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/maindata_memory/writeData" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">writeData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writeData[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/maindata_memory/address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">address[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/mainalu/zero" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+</wave_config>

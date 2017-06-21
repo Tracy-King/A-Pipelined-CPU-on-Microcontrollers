@@ -1,0 +1,21 @@
+Running: C:\Xilinx\13.4\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o E:/codjstu_design/lab5-ex/Top_tb_isim_beh.exe -prj E:/codjstu_design/lab5-ex/Top_tb_beh.prj work.Top_tb work.glbl 
+ISim O.87xd (signature 0x2f00eba5)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/codjstu_design/lab5-ex/signext.v" into library work
+Analyzing Verilog file "E:/codjstu_design/lab5-ex/Register.v" into library work
+Analyzing Verilog file "E:/codjstu_design/lab5-ex/PC.v" into library work
+Analyzing Verilog file "E:/codjstu_design/lab5-ex/inst_memory.v" into library work
+Analyzing Verilog file "E:/codjstu_design/lab5-ex/data_memory.v" into library work
+Analyzing Verilog file "E:/codjstu_design/lab5-ex/ctr.v" into library work
+Analyzing Verilog file "E:/codjstu_design/lab5-ex/ALUCtr.v" into library work
+Analyzing Verilog file "E:/codjstu_design/lab5-ex/alu.v" into library work
+Analyzing Verilog file "E:/codjstu_design/lab5-ex/top.v" into library work
+Analyzing Verilog file "E:/codjstu_design/lab5-ex/Top_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/13.4/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:267 - "E:/codjstu_design/lab5-ex/Top_tb.v" Line 32: Cannot find port clk on this module
+ERROR:HDLCompiler:25 - "E:/codjstu_design/lab5-ex/Top_tb.v" Line 33: Module <top> does not have a port named <clk>.
+WARNING:HDLCompiler:1016 - "E:/codjstu_design/lab5-ex/Top_tb.v" Line 32: Port cl is not connected to this instance
+ERROR:Simulator:778 - Static elaboration of top level Verilog design unit(s) in library work failed

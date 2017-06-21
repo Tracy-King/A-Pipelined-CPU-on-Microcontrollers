@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "E:/codjstu_design/genesys/lab4/data_memory.xst" -ofn "E:/codjstu_design/genesys/lab4/data_memory.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 data_memory.ngc data_memory.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o data_memory_map.ncd data_memory.ngd data_memory.pcf 
+par -w -intstyle ise -ol high -t 1 data_memory_map.ncd data_memory.ncd data_memory.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml data_memory.twx data_memory.ncd -o data_memory.twr data_memory.pcf 

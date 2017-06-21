@@ -1,0 +1,15 @@
+//! **************************************************************************
+// Written by: Map O.87xd on Thu Feb 25 10:10:37 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "mainClock" LOCATE = SITE "C9" LEVEL 1;
+COMP "count<0>" LOCATE = SITE "F12" LEVEL 1;
+COMP "count<1>" LOCATE = SITE "E12" LEVEL 1;
+COMP "count<2>" LOCATE = SITE "E11" LEVEL 1;
+COMP "count<3>" LOCATE = SITE "F11" LEVEL 1;
+COMP "reset" LOCATE = SITE "L13" LEVEL 1;
+NET "mainClock_BUFGP/IBUFG" BEL "mainClock_BUFGP/BUFG.GCLKMUX"
+        USELOCALCONNECT;
+SCHEMATIC END;
+

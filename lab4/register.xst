@@ -1,0 +1,5 @@
+set -tmpdir "E:/codjstu_design/genesys/lab4/xst/projnav.tmp"
+set -xsthdpdir "E:/codjstu_design/genesys/lab4/xst"
+elaborate
+-ifn register.prj
+-ifmt mixed

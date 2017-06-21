@@ -1,0 +1,5 @@
+set -tmpdir "E:/codjstu_design/lab5/xst/projnav.tmp"
+set -xsthdpdir "E:/codjstu_design/lab5/xst"
+elaborate
+-ifn inst_memory.prj
+-ifmt mixed

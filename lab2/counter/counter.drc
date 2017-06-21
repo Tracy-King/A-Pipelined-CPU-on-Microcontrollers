@@ -1,0 +1,8 @@
+Release 13.4 Drc O.87xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Thu Feb 25 10:11:40 2016
+
+drc -z counter.ncd counter.pcf
+
+DRC detected 0 errors and 0 warnings.

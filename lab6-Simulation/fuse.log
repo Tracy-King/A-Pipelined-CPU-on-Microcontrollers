@@ -1,0 +1,48 @@
+Running: C:\Xilinx\13.4\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o E:/codjstu_design/lab6-ex/top_tb_isim_beh.exe -prj E:/codjstu_design/lab6-ex/top_tb_beh.prj work.top_tb work.glbl 
+ISim O.87xd (signature 0x2f00eba5)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/codjstu_design/lab6-ex/signext.v" into library work
+Analyzing Verilog file "E:/codjstu_design/lab6-ex/Register.v" into library work
+Analyzing Verilog file "E:/codjstu_design/lab6-ex/PC.v" into library work
+Analyzing Verilog file "E:/codjstu_design/lab6-ex/MEM_WB.v" into library work
+Analyzing Verilog file "E:/codjstu_design/lab6-ex/inst_memory.v" into library work
+Analyzing Verilog file "E:/codjstu_design/lab6-ex/IF_ID.v" into library work
+Analyzing Verilog file "E:/codjstu_design/lab6-ex/ID_EX.v" into library work
+Analyzing Verilog file "E:/codjstu_design/lab6-ex/forward.v" into library work
+Analyzing Verilog file "E:/codjstu_design/lab6-ex/EX_MEM.v" into library work
+Analyzing Verilog file "E:/codjstu_design/lab6-ex/data_memory.v" into library work
+Analyzing Verilog file "E:/codjstu_design/lab6-ex/ctr.v" into library work
+Analyzing Verilog file "E:/codjstu_design/lab6-ex/ALUCtr.v" into library work
+Analyzing Verilog file "E:/codjstu_design/lab6-ex/alu.v" into library work
+Analyzing Verilog file "E:/codjstu_design/lab6-ex/top.v" into library work
+Analyzing Verilog file "E:/codjstu_design/lab6-ex/top_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/13.4/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "E:/codjstu_design/lab6-ex/top.v" Line 317: Port jump is not connected to this instance
+Completed static elaboration
+Fuse Memory Usage: 105688 KB
+Fuse CPU Usage: 202 ms
+Compiling module forward
+Compiling module EX_MEM
+Compiling module ID_EX
+Compiling module IF_ID
+Compiling module MEM_WB
+Compiling module ALUCtr
+Compiling module PC
+Compiling module alu
+Compiling module ctr
+Compiling module data_memory
+Compiling module inst_memory
+Compiling module register
+Compiling module signext
+Compiling module top
+Compiling module top_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 9 sub-compilation(s) to finish...
+Compiled 16 Verilog Units
+Built simulation executable E:/codjstu_design/lab6-ex/top_tb_isim_beh.exe
+Fuse Memory Usage: 111304 KB
+Fuse CPU Usage: 296 ms

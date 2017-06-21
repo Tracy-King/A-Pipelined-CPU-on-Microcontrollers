@@ -1,0 +1,14 @@
+MO data_memory NULL data_memory.v vlg4A/data__memory.bin 1459383030
+MO inst_memory NULL inst_memory.v vlg3E/inst__memory.bin 1459383030
+MO IF_ID NULL IF_ID.v vlg5F/_i_f___i_d.bin 1459383030
+MO forward NULL forward.v vlg15/forward.bin 1459383030
+MO PC NULL PC.v vlg53/_p_c.bin 1459383030
+MO ctr NULL ctr.v vlg61/ctr.bin 1459383030
+MO top NULL top.v vlg6F/top.bin 1459383030
+MO register NULL Register.v vlg29/register.bin 1459383030
+MO EX_MEM NULL EX_MEM.v vlg2F/_e_x___m_e_m.bin 1459383030
+MO ALUCtr NULL ALUCtr.v vlg43/_a_l_u_ctr.bin 1459383030
+MO signext NULL signext.v vlg1E/signext.bin 1459383030
+MO alu NULL alu.v vlg0A/alu.bin 1459383030
+MO MEM_WB NULL MEM_WB.v vlg3B/_m_e_m___w_b.bin 1459383030
+MO ID_EX NULL ID_EX.v vlg65/_i_d___e_x.bin 1459383030

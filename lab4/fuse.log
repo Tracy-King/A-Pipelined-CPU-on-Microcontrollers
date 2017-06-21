@@ -1,0 +1,20 @@
+Running: C:\Xilinx\13.4\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o E:/codjstu_design/lab4/test_for_memory_isim_beh.exe -prj E:/codjstu_design/lab4/test_for_memory_beh.prj work.test_for_memory work.glbl 
+ISim O.87xd (signature 0x2f00eba5)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/codjstu_design/lab4/data_memory.v" into library work
+Analyzing Verilog file "E:/codjstu_design/lab4/test_for_memory.v" into library work
+Analyzing Verilog file "C:/Xilinx/13.4/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 104792 KB
+Fuse CPU Usage: 186 ms
+Compiling module data_memory
+Compiling module test_for_memory
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 3 Verilog Units
+Built simulation executable E:/codjstu_design/lab4/test_for_memory_isim_beh.exe
+Fuse Memory Usage: 110408 KB
+Fuse CPU Usage: 186 ms
