@@ -1,1 +1,3 @@
 # A Pipelined CPU on Microcontrollers
+
+This is a pipelined CPU based on MIPS instruction set that runs on the Xilinx FPGA Spartan 3E developing board. It is designed by Verilog and Xilinx ISE Designed Suit. If you have the Xilinx FPGA Spartan 3E development board, you can download the code on your board and try to test it. If you don't have suitable developing board, it's ok to simulate its performance by the Xilinx ISE Designed Suit.
